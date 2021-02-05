@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suit" duration-ms="8598" started-at="2021-01-27T23:39:58 IST" finished-at="2021-01-27T23:40:07 IST">
+    <groups>
+    </groups>
+    <test name="API DEMO" duration-ms="8598" started-at="2021-01-27T23:39:58 IST" finished-at="2021-01-27T23:40:07 IST">
+      <class name="RestAssuredPratice.RestAssuredPra.IntegrationTestDemo">
+        <test-method status="PASS" signature="part1Create()[pri:0, instance:RestAssuredPratice.RestAssuredPra.IntegrationTestDemo@7cbd9d24]" name="part1Create" duration-ms="6927" started-at="2021-01-27T23:39:58 IST" finished-at="2021-01-27T23:40:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- part1Create -->
+      </class> <!-- RestAssuredPratice.RestAssuredPra.IntegrationTestDemo -->
+      <class name="RestAssuredPratice.RestAssuredPra.PostRequest1">
+        <test-method status="PASS" signature="PojoPost()[pri:0, instance:RestAssuredPratice.RestAssuredPra.PostRequest1@1672fe87]" name="PojoPost" duration-ms="515" started-at="2021-01-27T23:40:05 IST" finished-at="2021-01-27T23:40:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PojoPost -->
+      </class> <!-- RestAssuredPratice.RestAssuredPra.PostRequest1 -->
+      <class name="RestAssuredPratice.RestAssuredPra.SerialisationDemo">
+        <test-method status="PASS" signature="demoSerial()[pri:0, instance:RestAssuredPratice.RestAssuredPra.SerialisationDemo@5026735c]" name="demoSerial" duration-ms="859" started-at="2021-01-27T23:40:06 IST" finished-at="2021-01-27T23:40:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoSerial -->
+      </class> <!-- RestAssuredPratice.RestAssuredPra.SerialisationDemo -->
+    </test> <!-- API DEMO -->
+  </suite> <!-- Regression Suit -->
+</testng-results>

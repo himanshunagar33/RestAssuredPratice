@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suit" verbose="1">
+	
+	<test name="API DEMO">
+		<classes>			
+	<class name="RestAssuredPratice.RestAssuredPra.IntegrationTestDemo" />
+	<class name="RestAssuredPratice.RestAssuredPra.PostRequest1"/>
+	<class name="RestAssuredPratice.RestAssuredPra.SerialisationDemo"/>
+		</classes>
+	</test>
+
+</suite>
