@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Suit]">
+  <test name="API DEMO(failed)">
+    <classes>
+      <class name="RestAssuredPratice.RestAssuredPra.PostRequest1">
+        <methods>
+          <include name="PojoPost"/>
+        </methods>
+      </class> <!-- RestAssuredPratice.RestAssuredPra.PostRequest1 -->
+      <class name="RestAssuredPratice.RestAssuredPra.IntegrationTestDemo">
+        <methods>
+          <include name="part1Create"/>
+        </methods>
+      </class> <!-- RestAssuredPratice.RestAssuredPra.IntegrationTestDemo -->
+      <class name="RestAssuredPratice.RestAssuredPra.SerialisationDemo">
+        <methods>
+          <include name="demoSerial"/>
+        </methods>
+      </class> <!-- RestAssuredPratice.RestAssuredPra.SerialisationDemo -->
+    </classes>
+  </test> <!-- API DEMO(failed) -->
+</suite> <!-- Failed suite [Regression Suit] -->
